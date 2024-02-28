@@ -5,7 +5,7 @@
     <a href="" data-toggle="modal" data-target="#profile">
       <img src="/img/avatar.png" class="avatar" alt="" />
     </a>
-    <h3 class="py-2"><%= user?.name %></h3>
+    <h3 class="py-2">leave a message for <%= user?.name %></h3>
     <div class="container w-50 m-auto">
        <!-- for error validation message -->
       <% if( errorMessage.find((val) => val.path[0] == 'message')?.message) { %>
